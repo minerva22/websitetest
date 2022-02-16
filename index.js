@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/data')
+fetch('http://localhost:5000/data')
   .then(response => response.json())
   .then(json => {
     var MM= document.getElementById('MM');
@@ -21,7 +21,7 @@ fetch('http://localhost:3000/data')
     
     }
 } )
-    fetch('http://localhost:3000/dataSection')
+    fetch('http://localhost:5000/dataSection')
   .then(response => response.json())
   .then(json => {
     for(var j=0;j<json.length;j++)
